@@ -21,5 +21,5 @@ def total_salary(path):
         print('Виникла помилка.')
         return 0, 0
 
-total, average = total_salary(r"C:\Users\Admin\Documents\GitHub\goit-algo-hw-04\salaries.txt")
-print(f'Загальна заробітня плата - {total}, середня заробітня плата - {average}.')
+total, average_salary = total_salary(r"salaries.txt")
+print(f'Загальна заробітня плата - {total}, середня заробітня плата - {average_salary}.')
