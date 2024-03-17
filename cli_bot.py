@@ -11,7 +11,7 @@ def add_contact(args, contacts):
 
 def change_contact(args, contacts):
     name, phone = args
-    if name in contacts:
+    if name not in contacts:
         raise ValueError("Contact")
     contacts[name] = phone
     return "Contact updated successfully"
